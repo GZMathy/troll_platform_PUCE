@@ -10,6 +10,9 @@ pygame.display.set_caption("Simple Pygame Window")
 
 ball = ball.Ball(radius=20, color="blue")
 
+# aqui va a ir la logica del mapa
+
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
